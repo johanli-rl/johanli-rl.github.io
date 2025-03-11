@@ -5,7 +5,8 @@ url: "https://johanli-rl.github.io" # or your custom domain
 baseurl: "" # Leave blank for a User/Organization Page
 
 # Choose a theme; here we use a popular academic/blog theme
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Author information
 author:
