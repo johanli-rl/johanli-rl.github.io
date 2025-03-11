@@ -1,0 +1,28 @@
+# _config.yml
+title: "Johan Li's Academic Website"
+description: "Welcome to my academic website where I showcase my research and blogs."
+url: "https://johanli-rl.github.io" # or your custom domain
+baseurl: "" # Leave blank for a User/Organization Page
+
+# Choose a theme; here we use a popular academic/blog theme
+theme: minimal-mistakes-jekyll
+
+# Author information
+author:
+  name: "Johan Li"
+  email: "rl.johanli@gmail.com"
+
+# Navigation menu (if supported by the theme)
+header_pages:
+  - index.md
+  - research.md
+  - blog.md
+
+# Plugins (as needed)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Other configurations
+markdown: kramdown
+highlighter: rouge
